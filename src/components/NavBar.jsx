@@ -11,8 +11,8 @@ const NavBar = () => {
       p={2}
       sx={{position:"sticky" , background: "black", top: 0, justifyContent:"space-between"}}
       >
-      <Link to={"/home"} style={{display:"flex", alignItems:"center", }}>
-        <img src={logo} alt='logo' height={45}/>
+      <Link to={"/home"} style={{display:"flex", alignItems:"center",}}>
+        <img src={logo} alt='logo' height={35} style={{marginLeft: 25}}/>
       </Link>
       <SearchBar />
       </Stack>
